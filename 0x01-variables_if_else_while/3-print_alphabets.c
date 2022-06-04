@@ -6,6 +6,7 @@
 int main(void)
 {
 	char upper, lower;
+
 	for (upper = 'a'; upper <= 'z'; upper++)
 	{
 		putchar(upper);
