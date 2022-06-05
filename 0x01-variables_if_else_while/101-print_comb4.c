@@ -3,7 +3,7 @@
  * main - entry
  * description: printing combination of 3 differnt digits
  *
- * Return; 0
+ * Return: always 0 (Success)
  */
 int main(void)
 {
