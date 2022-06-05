@@ -14,7 +14,7 @@ int main(void)
 	}
 	if (n == 9)
 	{
-		break;
+		continue;
 	}
 	else
 	{
