@@ -13,7 +13,7 @@ int main(void)
 		putchar(n + '0');
 		continue;
 	}
-	if (n == 9)
+	if (!(n == 9))
 	{
 	}
 	else
