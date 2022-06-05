@@ -11,15 +11,17 @@ int main(void)
 	for (n = 0; n < 10; n++)
 	{
 		putchar(n + '0');
-		continue;
-	}
-	if (!(n == 9))
-	{
-	}
-	else
-	{
-		putchar(',');
-		putchar(' ');
+
+		if (n == 9)
+		{
+
+		}
+		else
+		{
+			putchar(',');
+			putchar(' ');
+
+		}
 	}
 	putchar('\n');
 	return (0);
