@@ -14,10 +14,11 @@ int main(void)
 	}
 	if (n == 9)
 	{
+		break;
 	}
 	else
 	{
-		putchar(', ');
+		putchar(',');
 		putchar(' ');
 	}
 	putchar('\n');
