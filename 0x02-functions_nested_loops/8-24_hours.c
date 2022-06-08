@@ -13,9 +13,9 @@ void jack_bauer(void)
 		for (j = 0; j < 60; ++j)
 		{
 			h1 = i / 10 + '0';
-			h2 = i / 10 + '0';
+			h2 = i % 10 + '0';
 			m1 = j / 10 + '0';
-			m2 = j / 10 + '0';
+			m2 = j % 10 + '0';
 			_putchar(h1);
 			_putchar(h2);
 			_putchar(':');
