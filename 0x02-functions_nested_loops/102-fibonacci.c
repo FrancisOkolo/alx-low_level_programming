@@ -3,7 +3,7 @@
  * main - main block
  * Description: printing first 50 fibonacci numbers
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
