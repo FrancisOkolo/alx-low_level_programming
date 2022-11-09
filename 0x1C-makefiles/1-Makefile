@@ -1,7 +1,5 @@
-#creating makefiles
-
 CC = gcc
-SRC := $(wildcard *.c)
+SRC = main.c school.c
 
-all: m.h main.c school.c
-	$(CC) $(main.c school.c) -o school
+all: m.h $(SRC)
+	$(CC) $(SRC) -o school
